@@ -10,7 +10,7 @@ import helmet from 'helmet';
 
 dotenv.config();
 
-const PORT: number = parseInt(process.env.PORT as string, 10);
+const PORT: number = parseInt(process.env.PORT as string, 10) || 3000;
 const app: Express = express();
 
 /**
@@ -23,7 +23,7 @@ app.use(express.json());
 
 
 app.use(express.static('build'));
-app.get('*', (req, res) => {
+app.get('/', (req, res) => {
   res.sendFile(__dirname + '/build/index.html');
 });
 // app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
