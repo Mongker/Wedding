@@ -1,0 +1,191 @@
+/*
+ *
+ * Theme Name: crismaster
+ * Description: CR
+ * Theme URI: 
+ * Version: 1.0
+ * Theme Author: Admin
+ * Author URI: 
+ * Tags: starter theme, framework theme, two-columns, customize
+ * Textdomain: 
+ */
+#wpadminbar {
+    display: none;
+}
+.special.container p {
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: #646c75;
+}
+.mr-0 {
+    margin-right: 0px !important;
+}
+.mt-0 {
+    margin-top: 0px !important;
+}
+.mt-60 {
+    margin-top: 60px;
+}
+.pb-0 {
+    padding-bottom: 0px !important;
+}
+.dark .navbar-toggler .icon-bar{
+    background: #fff;
+}
+.btn.btn-primary{
+    border-radius: 4px !important;
+}
+input[type=checkbox] + .lbl::before, input[type=radio] + .lbl::before{
+    background: white;
+}
+#action-button-left{
+    right: 0 !important;
+    left: auto !important;
+}
+.special_row {
+    
+}
+/*.messangers-block.arcuAnimated {*/
+/*    -webkit-transform: scale(1) !important;*/
+/*    -ms-transform: scale(1) !important;*/
+/*    transform: scale(1) !important;*/
+/*}*/
+/*.arcontactus-message-button {*/
+/*    display: none !important;*/
+/*}*/
+.messangers-block.arcuAnimated .arcu-item-title {
+    font-weight: bold;
+    /*font-size: 17px;*/
+    padding-left: 17px;
+}
+.width100 .vc_images_carousel, .width100 .vc_images_carousel img {
+    width: 100% !important;
+}
+.border-radius-10 iframe {
+    border-radius: 10px !important;
+}
+.m-t30  {
+    padding-top: 30px;
+    clear: both;
+}
+
+@media(min-width: 992px){
+    section[id*="blog"] .gallery-item{
+        height: 100%;
+    }
+    section[id*="blog"] .gallery-item img{
+        height: 100%;
+    }
+}
+section[id*="blog"] .gallery-item[class*="gallery-style"]:hover .content-box{
+    display: none !important;
+}
+.gallery-item[class*="gallery-style"] .item-title {
+    border-top: 5px solid #e7cb66;
+}
+.gallery-item[class*="gallery-style-6"]:hover .item-title {
+    transform: translate(0%, 50%);
+}
+#desc-tabs-2 .nav-item .nav-link{
+    background-color: #274171;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    user-modify: read-only;
+}
+#desc-tabs-2 .nav-item .nav-link.active{
+    background-color: #a9cd1b;
+}
+.nf-before-form-content, .nf-after-field, .nf-after-form-content {
+    display: none;
+}
+.nf-field-container {
+    width: 50%;
+}
+.nf-form-content input:not([type=button]), .nf-form-content textarea.ninja-forms-field {
+    background: rgba(255,255,255,0.1) !important; 
+    color: #fff !important;
+    margin-bottom: 20px !important;
+    border-radius: 0 !important;
+    height: 50px !important;
+    padding: 10px 20px !important;
+    box-shadow: none !important;
+    border: 1px solid #C4C4C4 !important;
+    display: inline-block !important;
+    border-radius: 25px !important;
+    width: 100% !important;
+}
+.nf-form-content .nf-field-label label {
+    font-size: 14px;
+}
+.nf-form-content input[type=button] {
+    background: rgba(0,0,0,0.6) !important; 
+    color: #fff !important; 
+    border-radius: 30px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    text-shadow: none !important;
+    cursor: pointer !important;
+}
+.nf-form-content input[type=button]:hover {
+    background: rgba(0,0,0,0.9) !important; 
+    color: #fff !important;
+}
+.nf-error.field-wrap .nf-field-element:after {
+    border-radius: 50%;
+}
+.nf-field-container {
+    clear: none !important;
+    width: 50%;
+    float: left;
+}
+.nf-field-container .nf-field {
+    width: 90%;
+}
+.nf-field-container.textarea-container, .nf-field-container.submit-container {
+    width: 100%;
+}
+.nf-field-container.textarea-container .nf-field {
+    width: 95%;
+}
+.carousel-slider-hero__cell__heading {
+    text-shadow: 1px 1px #ccc;
+}
+@media only screen and (max-width: 780px) {
+.nf-field-container {
+    width: 100%;
+}
+.nf-field-container .nf-field {
+    width: 100%;
+}
+.nf-field-container.textarea-container .nf-field {
+    width: 100%;
+}
+.nf-form-content input:not([type=button]), .nf-form-content textarea.ninja-forms-field {
+    margin-left: 8px;
+}
+.nf-field-container .nf-field-label label {
+    margin-left: 22px;
+}
+.gla_logo_rev {
+    display: none !important;
+}
+.width100 .vc_images_carousel, .width100 .vc_images_carousel img {
+    height: 295px !important;
+}
+.vid-m-l5{
+    margin-left: 5px;
+}
+.vid-m-l-3{
+    margin-left: -3px;
+}
+.carousel-slider-hero__cell__heading {
+    font-size: 20px !important;
+}
+/*.vc_custom_1619690955912 {*/
+/*    margin-left: 10px !important;*/
+/*}*/
+/*.vc_custom_1619691004047 {*/
+/*    margin-right: 10px !important;*/
+/*}*/
+}
