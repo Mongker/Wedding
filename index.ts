@@ -23,7 +23,7 @@ app.use(express.json());
 
 
 app.use(express.static('build'));
-app.get('/', (req, res) => {
+app.get('*', (req, res) => {
   res.sendFile(__dirname + '/build/index.html');
 });
 // app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));

@@ -19,7 +19,7 @@ app.use((0, helmet_1.default)());
 app.use((0, cors_1.default)());
 app.use(express_1.default.json());
 app.use(express_1.default.static('build'));
-app.get('/', (req, res) => {
+app.get('*', (req, res) => {
     res.sendFile(__dirname + '/build/index.html');
 });
 // app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
